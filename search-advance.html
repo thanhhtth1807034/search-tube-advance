@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="search-advance.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="logotube">
+    <img src="https://www.gmkfreelogos.com/logos/Y/img/YouTube.gif" alt="">
+</div>
+<div class="box">
+    <input type="text" value="pikachu" name="keyword" style="height: 30px; width: 500px;" placeholder="Search..." id="keyword" onkeypress="onchange(event)">
+    <!--<button id="btnsearch">Search</button>-->
+    <button id="icon"><i class="fa fa-search"></i></button>
+</div>
+<div id="myTubes">
+</div>
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <iframe id="youtubeFrame" class="modal-content"
+            src=""
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<script src="search-advance.js"></script>
+</body>
+</html>
